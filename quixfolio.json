@@ -1,0 +1,12 @@
+{
+  "id":"basic-template",
+  "name":"Basic Template",
+  "description":"This is a test template",
+  "image":"",
+  "pages":{
+    "div1":"index.html",
+    "div2":"index.html",
+    "div3":"index.html",
+    "div4":"index.html"
+  }
+}
