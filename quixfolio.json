@@ -4,9 +4,15 @@
   "description":"This is a test template",
   "image":"",
   "pages":{
-    "div1":"index.html",
-    "div2":"index.html",
-    "div3":"index.html",
-    "div4":"index.html"
+    "name":"index.html",
+    "summary":"index.html",
+    "picture":"index.html",
+    "education":"index.html",
+    "work-experience":"index.html",
+    "publication":"index.html",
+    "projects":"index.html",
+    "skills":"index.html",
+    "achievements":"index.html",
+    "links":"index.html"
   }
 }
