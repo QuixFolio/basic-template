@@ -1,18 +1,162 @@
 {
-  "id":"basic-template",
-  "name":"Basic Template",
-  "description":"This is a test template",
-  "image":"image.png",
-  "pages":{
-    "name":"index.html",
-    "summary":"index.html",
-    "picture":"index.html",
-    "education":"index.html",
-    "work-experience":"index.html",
-    "publication":"index.html",
-    "projects":"index.html",
-    "skills":"index.html",
-    "achievements":"index.html",
-    "links":"index.html"
+  "id": "basic-template",
+  "name": "Basic Template",
+  "description": "This is a test template",
+  "image": "image.png",
+  "schema": {
+    "education": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "university": {
+          "type": "string",
+          "default": ""
+        },
+        "startYear": {
+          "type": "string",
+          "default": ""
+        },
+        "endYear": {
+          "type": "string",
+          "default": ""
+        },
+        "major": {
+          "type": "string",
+          "default": ""
+        },
+        "gpa": {
+          "type": "integer",
+          "default": 0
+        },
+        "addInfo": {
+          "type": "string",
+          "default": ""
+        },
+        "releventCoursework": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "workExperience": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "company": {
+          "type": "string",
+          "default": ""
+        },
+        "location": {
+          "type": "string",
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "default": ""
+        },
+        "startDate": {
+          "type": "string",
+          "default": ""
+        },
+        "endDate": {
+          "type": "string",
+          "default": ""
+        },
+        "summary": {
+          "type": "string",
+          "default": ""
+        },
+        "image": {
+          "type": "image",
+          "default": ""
+        }
+      }
+    },
+    "publication": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "publication": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "description": {
+          "type": "string",
+          "default": ""
+        },
+        "source": {
+          "type": "link",
+          "default": ""
+        },
+        "demo": {
+          "type": "link",
+          "default": ""
+        },
+        "image": {
+          "type": "image",
+          "default": ""
+        },
+        "startDate": {
+          "type": "string",
+          "default": ""
+        },
+        "endDate": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "skills": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "achievements": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "date": {
+          "type": "string",
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "link": {
+          "type": "link",
+          "default": ""
+        }
+      }
+    }
   }
 }
