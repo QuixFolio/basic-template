@@ -2,7 +2,7 @@
   "id":"basic-template",
   "name":"Basic Template",
   "description":"This is a test template",
-  "image":"",
+  "image":"image.png",
   "pages":{
     "name":"index.html",
     "summary":"index.html",
