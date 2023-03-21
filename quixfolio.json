@@ -4,6 +4,18 @@
   "description": "This is a test template",
   "image": "image.png",
   "schema": {
+    "cloneName": {
+      "type": "string",
+      "default": "basic-template"
+    },
+    "name": {
+      "type": "string",
+      "default": ""
+    },
+    "summary": {
+      "type": "string",
+      "default": ""
+    },
     "education": {
       "type": "array",
       "page": "index.html",
