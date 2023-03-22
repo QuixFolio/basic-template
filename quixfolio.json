@@ -6,14 +6,17 @@
   "schema": {
     "cloneName": {
       "type": "string",
+      "page": "index.html",
       "default": "basic-template"
     },
     "name": {
       "type": "string",
+      "page": "index.html",
       "default": ""
     },
     "summary": {
       "type": "string",
+      "page": "index.html",
       "default": ""
     },
     "education": {
