@@ -2,6 +2,7 @@
   "id": "basic-template",
   "name": "Basic Template",
   "description": "This is a test template",
+  "tags":["basic"],
   "image": "image.png",
   "schema": {
     "cloneName": {
